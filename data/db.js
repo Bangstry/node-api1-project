@@ -37,3 +37,4 @@ function remove(id) {
     .where('id', Number(id))
     .del();
 }
+
